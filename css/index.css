@@ -1,0 +1,251 @@
+@charset "utf-8";
+a {text-decoration: none; color: #fff; font-family: 'Belleza';}
+
+/*header*/
+header {position: fixed; position:relative; width: 100%;}
+#header {background: #5F4F4F; opacity: 0.8; width: 100%; height: 170px; 
+    position: absolute; z-index: 3;}
+.head1 {float: left; width: 45%; padding: 15px;}
+.logo {padding: 20px 0 0 30px;}
+.logo a {display: inline-block;}
+.logo a h1 {font-size: 1.75rem; font-weight: normal;}
+.navi {display: flex; flex-wrap: wrap; padding: 20px 0 0 30px;}
+.navi li {margin: 20px 35px 0 0;}
+.navi li a {display: inline-block; font-family: 'Belleza'; font-size: 1rem;}
+
+.head2 {float: right; text-align: right;  width: 45%; padding: 20px;}
+.nav1 {padding-top: 5px;}
+.nav1 li {float: right;}
+.nav1 li a {padding: 15px 15px 15px 25px; font-family: 'Belleza'; font-size: 0.95rem;}
+.nav2 {display: block;}
+.nav2 li {padding: 10px 15px 0 0;}
+.nav2 li a {font-family: 'Belleza'; font-size: 0.95rem;}
+
+/*cont-wrap*/
+#cont-wrap {width: 100%; margin: 0 auto;}
+/*section1*/
+#content {width: 100%;}
+.banner {width: 100%; position: relative; overflow: hidden;}
+.banner img {width: 100%;}
+.slick-slide {padding: 0px!important;}
+
+
+/*slide-button*/
+.slick-arrow {position: absolute; top: 50%;
+    border: solid #fff;
+    background: none;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    font-size: 0;
+    border-radius: 1.5px;
+    width: 25px;
+    height: 25px;
+
+  }
+
+.slick-prev {left: 25px;z-index: 2; transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);}
+.slick-next {right: 25px;  transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);}
+
+/*section2*/
+#content1 {width: 80%; margin: 0 auto;}
+.first-title {display: flex; flex-wrap: wrap; align-items: center; margin-top: 5rem;}
+.first-title h3{font-family: 'Belleza'; font-size: 1.5rem; font-weight: normal;
+position: relative;}
+
+.line{  height: 25px;
+        left: 10px;
+        top: 10px;
+        background: #b89a9a2d;
+        position: absolute;
+        width: 100%;
+}
+.first-title span {font-family: 'Belleza'; font-size: 1.35rem; margin-left: 20px;}
+.img-box {margin-top: 30px; width: 50%; float: left;}
+.img-box img {width: 100%; height: 526px;}
+.imgbox {width: 44%; float: left; display: flex; margin-top: 30px;}
+.imgbox a {display: inline-block;width: 25%;}
+.imgbox img {width: 100%;}
+.imgbox img:after {
+    content: '';
+    display: block;
+    background: #5F4F4F99;}
+
+/*section3*/
+#content2 {width: 95%; margin: 0 auto; text-align: center;}
+.second-title h3 {text-align: center; font-family: 'Belleza'; font-size: 1.5rem; font-weight: normal; position: relative; display: inline-block; margin-top: 5rem;}
+
+.width-scrollbox  {margin-top: 30px;}
+.width-scrollbox ul{display: flex; flex-wrap: wrap;}
+.width-scrollbox ul li {padding: 10px;}
+.width-scrollbox ul li a {display: inline-block;}
+.width-scrollbox ul li a img {width: 100%;}
+
+.slick-slide {padding: 15px;}
+
+.slick-dots{width: 95%; background: #eee; height: 3px; margin: 0 auto; border-radius: 3px; margin-top: 15px;}
+.slick-dots li {height: 5px; padding: 0!important; width: 11.11%;}
+.slick-dots li button {font-size: 0; outline: none; display: none;}
+li.slick-active {background: #4a3e3e; height: 5px; border-radius: 3px; vertical-align: center;}
+
+/*section4*/
+#content3 {width: 80%; margin: 0 auto;}
+.third-title h3{font-family: 'Belleza'; font-size: 1.5rem; font-weight: normal; margin-top: 5rem;
+position: relative; display: inline-block;}
+
+.youtubebox {margin-top: 3rem;}
+.youtubebox ul{display: flex; flex-wrap: wrap; flex-direction: column; width: 20%; float: left;}
+
+.youtubebox ul li a img{width: 100%;}
+.youtubebox ul li a span {color: #000; font-family: 'Nanum Myeongjo'; font-weight: bold; font-size: 0.95rem;
+    margin: 10px 0; text-align: center;
+    display: inline-block;}
+.thumnail {float: right; margin-top: 5px;
+    margin-right: 30px;}
+
+/*section5*/
+#content4 {width: 80%; margin: 0 auto;}
+.fourth-title h3{font-family: 'Belleza'; font-size: 1.5rem; font-weight: normal; margin-bottom: 15px; margin-top: 5rem;
+position: relative; display: inline-block;}
+.fourth-title span {font-family: 'Nanum Myeongjo'; font-size: 1.35rem; margin: 20px 0;
+display: block; margin-top: 10px;}
+
+.cont-wrap {width: 100%;}
+.first-box {width: 50%; overflow: hidden;
+position: relative; float: left; }
+.first-box img {width: 100%; height: 510px;
+    transform: scale(1); transition: .4s ease-in-out;}
+.first-box img:hover {transform: scale(1.1);}
+.second-box {width: 47%; float: left; height: 250px; margin-left: 10px; margin-left: 10px; position:relative; overflow: hidden;}
+.second-box img {width: 100%; height: 250px;
+    transform: scale(1); transition: .4s ease-in-out;}
+.second-box img:hover {transform: scale(1.1);}
+.first-box span {color: #fff; position: absolute; 
+        left: 15px;
+        bottom: 15px;
+        font-family: 'Nanum Myeongjo'; font-size: 1.35rem;
+}
+.second-box span {color: #fff; position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Nanum Myeongjo'; font-size: 1.35rem;
+}
+.third-box span {color: #fff; position: absolute; 
+    right: 15px;
+    bottom: 15px;
+    font-family: 'Nanum Myeongjo'; font-size: 1.35rem;
+}
+.third-box {width: 47%; float: left; margin-left: 10px; 
+    margin: 10px 0px 0px 10px; position:relative; overflow: hidden;}
+.third-box img {width: 100%; height: 250px;
+        transform: scale(1); transition: .4s ease-in-out;}
+.third-box img:hover {transform: scale(1.1);}
+/*footer*/
+
+footer {background: #504040; height: 200px; margin-top: 5rem;
+position: relative;}
+.footer-wrap {text-align: center;}
+.foot-nav {position: absolute; top: 25px; right: 25px;}
+.foot-nav span {color: #fff; padding-left: 15px; font-size: 0.95rem;}
+span.foot-logo{font-family: 'Belleza'; font-size: 1.5rem; display: block; color: #fff; padding-top: 25px;} 
+.text-c, p {font-size: 1rem; color: #fff; margin-top: 30px;}
+
+/*아코디언*/
+.cont1 {position: relative;
+width: 100%; height: 780px; margin-top: 3rem;}
+.wrap {
+    position:absolute;
+    min-width:250px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:hidden;
+}
+.description img {width: 100%; height: 100%;}
+
+input.button {
+    display:none;
+}
+
+input[type=radio]:checked + .contents { 
+    visibility: visible;
+    width:calc(100% - 600px);
+}
+
+
+
+/* 메뉴 버튼 디자인 */
+.label {
+    height:100%;
+    display:inline-block;
+    float:left;
+    overflow:hidden;
+    cursor:pointer;
+    width: 115px;
+}
+
+.label.a {
+    background: #4a3e3e;
+}
+.label.b {
+    background: linear-gradient(0deg, rgba(95, 79, 79, 0.1), rgba(95, 79, 79, 0.1)), url(../img/collect1-1.png);
+}
+.label.c {
+    background: linear-gradient(0deg, rgba(95, 79, 79, 0.3), rgba(95, 79, 79, 0.3)), url(../img/collect1-2.png);
+}
+.label.d {
+    background: linear-gradient(0deg, rgba(95, 79, 79, 0.6), rgba(95, 79, 79, 0.6)), url(../img/collect1-3.png);
+}
+.label.e {
+    background: linear-gradient(0deg, rgba(95, 79, 79, 0.3), rgba(95, 79, 79, 0.3)), url(../img/collect1-4.png);
+}
+/* .label .rotate {
+   display:inline-block;
+} */
+.label .rotate p {
+    position:relative;
+    /* -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg); */
+    transform: rotate(90deg);
+    transform-origin: left;
+    font-size:1.7em;
+    white-space: nowrap;
+    left:35%;
+    font-family: 'Belleza';
+    color:#fff;
+    top:30px;
+}
+.nr {transform: rotate(0deg)!important;
+     left: 20%!important;
+     display: inline-block;}
+
+/* 컨텐츠 본문 */
+.contents {
+    position:relative;
+    visibility: collapse;
+    float:left;
+    height:100%;
+    width:0;
+    transition:all 0.2s ease-out;
+    z-index:-1;
+    overflow:hidden;
+}
+.inner {
+    display: table;
+    height:100%;
+    margin:0 auto;
+    -moz-box-shadow:0px 0px 3px 3px rgba(0,0,0,0.05);
+    -webkit-box-shadow:0px 0px 3px 3px rgba(0,0,0,0.05);
+    box-shadow:0px 0px 3px 3px rgba(0,0,0,0.05);
+}
+.description {
+    display:table-cell;
+    background: rgba(0,0,0,0.04);
+}
+
